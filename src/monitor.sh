@@ -1,4 +1,4 @@
-##!/usr/bin/bash
+#!/usr/bin/bash
 echo $(uname -n)
 echo $(date) 
 echo "I am loving this" 
@@ -6,7 +6,7 @@ for i in {1..3}
 do
 	echo "Running iteration $i"
 	top -b -n1
-	if [[$i != 3 ]]; then
+	if [[ $i != 3 ]]; then
 		echo "---------------------------"
 	fi
 	sleep 5
