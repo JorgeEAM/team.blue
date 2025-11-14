@@ -1,6 +1,7 @@
 ##!/usr/bin/bash
 echo $(uname -n)
 echo $(date) 
+echo "I am loving this" 
 for i in {1..3}
 do
 	echo "Running iteration $i"
