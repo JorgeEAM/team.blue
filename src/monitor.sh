@@ -1,5 +1,6 @@
 #!/usr/bin/bash
-echo $(uname -n) 
+echo $(uname -n)
+echo $(date) 
 for i in {1..3}
 do
 	echo "Running iteration $i"
